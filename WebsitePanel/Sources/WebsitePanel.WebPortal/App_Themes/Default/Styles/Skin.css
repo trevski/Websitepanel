@@ -12,9 +12,9 @@ label {cursor:pointer;}
 /* global */
 a {color:#428bca;}
 a:hover {text-decoration:underline;}
-td.SubHead {min-width:70px; line-height:13px; color:#000; vertical-align:top; padding:9px 0 5px 0;}
+td.SubHead {min-width:70px; line-height:1.5em; color:#000; vertical-align:top; padding:9px 10px 5px 0;}
 td.SubHead span {}
-td.Normal {padding:0; vertical-align:top; line-height:34px; white-space:nowrap;}
+td.Normal {padding:0; vertical-align:top;  padding:9px 10px 5px 0; line-height:1.5em;}
 td.Normal span {}
 .NormalBold {font-weight:600; color:#222; padding:0; width:auto !important;}
 /*.NormalBold span {display:block; padding:2px 0 8px 0;}*/
@@ -33,11 +33,12 @@ td.Normal .NormalTextBox + span {display:inline-block; padding:0;}
 .FormBody .Huge {font-size:18px; font-weight:600; letter-spacing:0;}
 .Right .SubHead {width:80px;}
 .RightBlockTable .SubHead {width:60px;}
-.ToolLink a {font-size:13px; display:inline-block; padding:10px 0 0 0; font-weight:300; color:#db6b20;}
+.ToolLink a {font-size:13px; display:inline-block; padding:10px 0 0 0; font-weight:500; color:#DF1A1A;}
 .ToolLink a:hover {text-decoration:underline;}
 ul.LinksList {margin-left:20px;}
 ul.LinksList li a {display:block; line-height:30px;}
 .IconsBlock {margin-bottom:20px;}
+.IconsBlock .LinkText {margin-left:5px; font-weight:500;  border-bottom: 1px solid #eee; padding-bottom:5px; display:block;}
 .IconsTitle {padding:5px; font-size:26px; font-weight:300;}
 .IconsTitle a {color:#428bca;}
 .Icon {width:125px; border:solid 1px transparent; text-align:center; vertical-align:top; font-size:13px; margin-top:10px;}
@@ -98,13 +99,13 @@ input[type=checkbox], input[type=radio] {margin:8px 4px 8px; vertical-align:-1px
 input[type=image] {margin-right:4px;}
 .LoginLabel {display:block; line-height:34px; width:auto !important; padding-right:8px;}
 .LoginContainer .SubHead {padding-right:8px; color:#333;}
-.RightBlockTitle {color:#db6b20; font-size:26px; font-weight:300; letter-spacing:-1px;}
+.RightBlockTitle {color:#DF1A1A; font-size:26px; font-weight:300; letter-spacing:-1px;}
 .RightBlockTable {color:#000;}
 .RightBlockTable td.SubHead, .RightBlockTable td.Normal {padding:5px 0; line-height:13px;}
  {padding:0; line-height:13px;}
 .FormRightIcon {display:none;}
-.FormButtonsBar {clear:both; margin:10px 0 20px 0; text-align:center; min-height:34px;}
-.FormButtonsBar.UserSpaces {margin: -50px 80px 20px 0;text-align: right;}
+.FormButtonsBar {clear:both; margin:10px 0 20px 0; text-align:right; min-height:34px;}
+.FormButtonsBar.UserSpaces {margin: -50px 80px 20px 0;text-align: right; width:100%;}
 .Small {font-size:9pt;}
 .Small span {color:#888;}
 .Small b {color:#87c442; font-weight:300;}
