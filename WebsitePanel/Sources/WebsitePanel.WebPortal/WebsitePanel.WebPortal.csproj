@@ -238,7 +238,18 @@
     <Content Include="bin\WebsitePanel.Providers.Base.pdb" />
     <Content Include="bin\WebsitePanel.WebPortal.dll" />
     <Content Include="bin\WebsitePanel.WebPortal.pdb" />
+    <Content Include="DesktopModules\WebsitePanel\Login.ascx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\GlobalSearch.ascx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\Logo.ascx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\ProductVersion.ascx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\SignedInUser.ascx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\SiteFooter.ascx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\SpaceOrganizationsSelector.ascx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\TopMenu.ascx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\UserSpaceBreadcrumb.ascx" />
+    <Content Include="DesktopModules\WebsitePanel\WebsitesSSL.ascx" />
     <Content Include="Error.htm" />
+    <Content Include="favicon.ico" />
     <Content Include="JavaScript\jquery-1.4.4.min.js" />
     <Content Include="JavaScript\jquery-ui-1.8.9.min.js" />
     <Content Include="JavaScript\jquery.poshytip.min.js" />
@@ -290,6 +301,73 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\GlobalSearch.ascx.cs">
+      <DependentUpon>GlobalSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\GlobalSearch.ascx.designer.cs">
+      <DependentUpon>GlobalSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\Logo.ascx.cs">
+      <DependentUpon>Logo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\Logo.ascx.designer.cs">
+      <DependentUpon>Logo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\ProductVersion.ascx.cs">
+      <DependentUpon>ProductVersion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\ProductVersion.ascx.designer.cs">
+      <DependentUpon>ProductVersion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\SignedInUser.ascx.cs">
+      <DependentUpon>SignedInUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\SignedInUser.ascx.designer.cs">
+      <DependentUpon>SignedInUser.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\SiteFooter.ascx.cs">
+      <DependentUpon>SiteFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\SiteFooter.ascx.designer.cs">
+      <DependentUpon>SiteFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\SpaceOrganizationsSelector.ascx.cs">
+      <DependentUpon>SpaceOrganizationsSelector.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\SpaceOrganizationsSelector.ascx.designer.cs">
+      <DependentUpon>SpaceOrganizationsSelector.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\TopMenu.ascx.cs">
+      <DependentUpon>TopMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\TopMenu.ascx.designer.cs">
+      <DependentUpon>TopMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\UserSpaceBreadcrumb.ascx.cs">
+      <DependentUpon>UserSpaceBreadcrumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\SkinControls\UserSpaceBreadcrumb.ascx.designer.cs">
+      <DependentUpon>UserSpaceBreadcrumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\WebsitesSSL.ascx.cs">
+      <DependentUpon>WebsitesSSL.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopModules\WebsitePanel\WebsitesSSL.ascx.designer.cs">
+      <DependentUpon>WebsitesSSL.ascx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -785,6 +863,231 @@
     <Content Include="App_Themes\Default\Images\warning_big.gif" />
     <Content Include="App_Themes\Default\Images\warning_icon_small.gif" />
     <EmbeddedResource Include="Code\Adapters\empty.gif" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\AuditLog.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\BackupWizard.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\BandwidthReport.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\BandwidthReportPackageDetails.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\DiskspaceReport.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\DiskspaceReportPackageDetails.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\DnsZoneRecords.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\Domains.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\DomainsAddDomain.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\DomainsAddDomainSelectType.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\DomainsEditDomain.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\DomainsSelectDomainControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\EnterpriseServerSettings.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\EnterpriseServerSyncAccounts.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\EnterpriseServerSyncAccountsComplete.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\FileManager.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\FtpAccountEditAccount.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\FtpAccounts.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\GlobalDnsRecordsControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\HostedSoluitonReportSummaryLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\HostingAddons.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\HostingAddonsEditAddon.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\HostingPlans.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\HostingPlansEditPlan.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\HostingPlansQuotas.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\IconsPad.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\IconsPadEditIcon.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\InstallerApplicationHeader.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\InstallerApplications.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\InstallerInstallApplication.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\InstallerInstallApplicationComplete.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\IPAddresses.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\IPAddressesAddIPAddress.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\IPAddressesEditIPAddress.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\LoggedUser.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\LoggedUserEditDetails.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\Login.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\LoginForgotPassword.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\LyncPhoneNumbers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailAccounts.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailAccountsEditAccount.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailDomains.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailDomainsAddPointer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailDomainsEditDomain.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailEditAddress.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailEditItems.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailForwardings.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailForwardingsEditForwarding.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailGroups.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailGroupsEditGroup.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailLists.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\MailListsEditList.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\OdbcEditSource.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\OdbcSources.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\OrganizationMenu.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\OverusageReport.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\Peers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\PeersEditPeer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\PhoneNumbers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\PhoneNumbersAddPhoneNumber.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\PhoneNumbersEditPhoneNumber.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\RDSServers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\RDSServersEditServer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\RestoreWizard.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\Schedules.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SchedulesEditSchedule.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SearchObject.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SearchSpaces.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SearchUsers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServerDnsRecordsControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServerHeaderControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServerIPAddressesControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\Servers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersAddServer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersAddService.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersEditEventViewer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersEditReboot.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersEditServer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersEditService.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersEditSystemProcesses.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersEditTerminalConnections.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersEditWebPlatformInstaller.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServersEditWindowsServices.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\ServerServicesControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsAccountSummaryLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsDomainExpirationLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsDomainLookupLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsEditor.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsExchangeHostedEditionOrganizationSummary.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsExchangeHostedEditionPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsExchangeMailboxPlansPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsExchangeMailboxSetupLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsExchangePolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsExchangeRetentionPolicyTag.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsFtpPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsLyncUserPlansPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsMailPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsMsSqlPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsMySqlPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsOperatingSystemPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsOrganizationUserSummaryLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsPackageSummaryLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsPasswordReminderLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsRdsPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsRdsSetupLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsServiceLevels.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsSharePointPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsUserPasswordExpirationLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsUserPasswordRequestLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsUserPasswordResetLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsUserPasswordResetPincodeLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsVpsPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsVpsSummaryLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsWebPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SettingsWebsitePanelPolicy.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SetupControlPanelAccounts.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharedSSLAddFolder.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharedSSLEditFolder.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharedSSLFolders.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointBackupSite.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointEditSite.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointGroups.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointGroupsEditGroup.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointInstallWebPartPackage.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointRestoreSite.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointSites.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointUsers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointUsersEditUser.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SharePointWebPartPackages.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceDeleteSpace.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceDetails.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceDetailsHeaderControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceEditAddon.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceEditDetails.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceEditDnsRecords.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceImportResources.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceMenu.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceNestedSpaces.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceNestedSpacesSummary.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceNotes.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceQuotas.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceQuotasControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSettings.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSettingsEditor.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSettingsExchangeHostedEdition.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSettingsExchangeServer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSettingsInstantAlias.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSettingsNameServers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSettingsSharedSSLSites.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSettingsSpacesFolder.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSettingsVPS.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceSummaryLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceTools.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SpaceViewQuotas.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SqlBackupDatabase.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SqlDatabases.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SqlEditDatabase.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SqlEditUser.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SqlRestoreDatabase.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SqlUsers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\Statistics.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\StatisticsEditStatistics.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\SystemSettings.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\Tasks.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\TasksTaskDetails.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\TasksUsersTasks.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountChangePassword.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountDetails.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountEditDetails.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountMailTemplateSettings.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountMenu.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountNotes.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountPolicySettings.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountSettings.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountSummaryLetter.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserAccountTools.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserCreateSpace.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserCreateUserAccount.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserCustomers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserCustomersSummary.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserDeleteUserAccount.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserOrganization.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UsersDeleteUser.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\UserSpaces.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\VirtualServers.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\VirtualServersAddServer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\VirtualServersAddServices.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\VirtualServersEditServer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\VpsMenu.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebApplicationGallery.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebApplicationGalleryHeader.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebApplicationGalleryInstall.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebApplicationGalleryParamControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebApplicationGalleryParams.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSites.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesAddPointer.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesAddSite.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesAddVirtualDir.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesAllocateIPAddresses.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesColdFusionControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesCustomErrorsControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesCustomHeadersControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesEditHeliconApeFolder.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesEditHeliconApeFolderAuth.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesEditHeliconApeGroup.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesEditHeliconApeUser.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesEditSite.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesEditVirtualDir.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesEditWebFolder.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesEditWebGroup.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesEditWebUser.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesExtensionsControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesHeliconApeControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesHeliconZooControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesHomeFolderControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesIPAddresses.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesMimeTypesControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebSitesSecuredFoldersControl.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WebsitesSSL.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WorkForUser.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\App_LocalResources\WorkForUserSelect.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\App_LocalResources\GlobalSearch.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\App_LocalResources\SearchObject.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\App_LocalResources\SignedInUser.ascx.resx" />
+    <Content Include="DesktopModules\WebsitePanel\SkinControls\App_LocalResources\SiteFooter.ascx.resx" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

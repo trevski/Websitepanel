@@ -113,14 +113,25 @@ input[type=image] {margin-right:4px;}
 .Big {font-size:18px; padding-right:9px;}
 .MediumBold {font-size:18px; padding:0 14px;}
 .Medium {}
-.BorderFillBox {padding:9px; border:1px solid #f1c40f; background:#f4d34b; margin-bottom:4px;}
+.BorderFillBox {padding:9px; border:1px solid #2e8bcc ; background:#c0dcf0; margin-bottom:4px;margin-left:10px;}
+#ctl03_ctl01_ctl00_dlServers, #ctl03_ctl00_ctl00_dlServers {  width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;}
+#ctl03_ctl01_ctl00_dlServers table, #ctl03_ctl00_ctl00_dlServers table{  width: 100% !important; }
+#ctl03_ctl00_ctl00_dlServiceGroups{  width: 100%;
+    border-collapse: separate;
+    margin-top:10px}
+ #ctl03_ctl00_ctl00_dlServiceGroups .BorderFillBox, #ctl03_ctl00_ctl00_ServerServicesControl1_dlServiceGroups .BorderFillBox {margin-left:0px; }
+ #ctl03_ctl00_ctl00_dlServiceGroups .BorderFillBox td { text-align:left !important}
+ #ctl03_ctl00_ctl00_dlServiceGroups .BorderFillBox td .Brick{ text-align:left !important;border-bottom:0; padding-top:5px; font-size:1.1em;}
+ #ctl03_ctl00_ctl00_dlServiceGroups .MediumBold {padding:10px 0 10px 0}
 table.BorderFillBox td {padding:0 9px;}
 table.BorderFillBox td .Brick {padding:0; line-height:normal; margin-bottom:9px;}
 .BorderFillBox .Big {font-size:22px; padding-bottom:10px;}
 .BorderFillBox .Normal a {color:#fff;}
 .RedBorderFillBox {border:1px solid #f25555; background:#f28585; padding:50px; text-align:center;}
-.Brick {display:block; float:none; background:#f9e9a5; color:#333; font-size:11px; margin-bottom:1px;}
-.Brick a {display:block; width:100%; height:100%; color:#806808;}
+.Brick {display:block; float:none; background:#c0dcf0; color:#333; font-size:11px; border-bottom:1px dotted #2e8bcc; margin-bottom:1px; width:100%}
+.Brick a {display:block; width:100%; height:100%; color:#2e8bcc;}
 .Brick b a {font-size:13px; font-weight:700; padding:10px; display:block;}
 .GridFooter {clear:both; font-size:8pt; color:#888; padding:8px 5px; border:1px solid #ddd; margin:10px 0 20px 0;}
 .GridFooter img {vertical-align:-2px !important;}
