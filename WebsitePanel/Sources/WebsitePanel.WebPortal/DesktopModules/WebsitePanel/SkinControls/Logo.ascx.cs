@@ -49,8 +49,7 @@ namespace WebsitePanel.Portal.SkinControls
 
         private void BindLogo()
         {
-            imgLogo.ImageUrl = "/App_Themes/EonicHost/images/eonic_logo.png";
-
+            imgLogo.ImageUrl = PortalUtils.GetThemedImage("logo.png");
             // load settings
             if (Page.User.Identity.IsAuthenticated)
             {
